@@ -24,7 +24,7 @@ jobs:
 
       - name: Build with Nuitka
         run: |
-          nuitka --standalone --onefile your_script.py  # Adjust according to your script and options
+          nuitka --standalone --onefile test.py  # Adjust according to your script and options
 
       - name: Upload release artifact
         uses: actions/upload-artifact@v3
