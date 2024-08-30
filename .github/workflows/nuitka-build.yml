@@ -30,4 +30,6 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: nuitka-build
-          path: test.dist/test  # Adjust according to where Nuitka places the build output
+          path: |
+                test.cmd
+                test.exe   # Adjust according to where Nuitka places the build output

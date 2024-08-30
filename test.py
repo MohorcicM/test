@@ -11,3 +11,7 @@ def get_git_version():
     return git_version
     
 print("Git version: %s" % get_git_version())
+
+# Create a file
+with open("version.txt", "w") as f:
+    f.write(get_git_version())
