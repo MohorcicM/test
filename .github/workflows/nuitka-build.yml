@@ -30,4 +30,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: nuitka-build
-          path: $GITHUB_WORKSPACE/  # Adjust according to where Nuitka places the build output
+          path: $GITHUB_WORKSPACE/test.dist/test  # Adjust according to where Nuitka places the build output
