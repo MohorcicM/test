@@ -31,5 +31,5 @@ jobs:
         with:
           name: nuitka-build
           path: |
-                test.cmd
-                test.exe   # Adjust according to where Nuitka places the build output
+                /home/runner/work/test/test.cmd
+                /home/runner/work/test/test.exe   # Adjust according to where Nuitka places the build output
