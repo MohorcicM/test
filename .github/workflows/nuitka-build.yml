@@ -15,7 +15,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'  # Specify the Python version to use
+          python-version: '3.10'  # Specify the Python version to use
 
       - name: Install dependencies
         run: |
@@ -30,4 +30,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: nuitka-build
-          path: your_script.dist/your_script  # Adjust according to where Nuitka places the build output
+          path:   # Adjust according to where Nuitka places the build output
